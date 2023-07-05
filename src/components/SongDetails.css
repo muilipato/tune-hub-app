@@ -1,0 +1,25 @@
+.song_body {
+  padding-bottom: 60px;
+  width: 100%;
+  color: white;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 1));
+  background-color: rgb(91, 87, 115);
+}
+
+.song_body::-webkit-scrollbar {
+  display: none;
+}
+
+.song_video{
+  text-align: center;
+}
+
+.song_about{
+  margin: 30px;
+  text-align: justify;
+}
+
+.add-cover h1{
+  display: block;
+  text-align: center;
+}

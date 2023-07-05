@@ -1,0 +1,17 @@
+.artist_body {
+    padding-bottom: 60px;
+    width: 100%;
+    position: static;
+    color: white;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 1));
+    background-color: rgb(91, 87, 115);
+    box-sizing: border-box;
+  }
+
+.albums_container{
+  padding-left: 30px;
+}
+
+.artist_body::-webkit-scrollbar {
+  display: none;
+}

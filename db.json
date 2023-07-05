@@ -1,0 +1,116 @@
+{
+    "artists": [
+      {
+        "id": "1",
+        "name": "Beyoncé",
+         "image": "https://t2.genius.com/unsafe/837x0/https%3A%2F%2Fimages.genius.com%2F25f7450d84a95225c33e8de77ce2c6b7.1000x1000x1.jpg",
+         "bio": "Beyoncé's musical story started when she was nine years old, spending time with a group of friends dancing and singing their way into vocal competitions and performing at the rodeo, local clubs and concert venues in Houston, Texas. The group of girls gradually morphed into becoming Destiny's Child, one of the most successful female recording groups of all-time. Destiny's Child amassed worldwide hits with both singles and albums and in 2001 BEYONCÉ became the first African-American woman and the second woman ever to take home the ASCAP Pop Songwriter of the Year Award for her work with the band. Following her success with Destiny's Child and making the change to becoming a solo artist, BEYONCÉ has become one of the defining artists of our generation. A singer, songwriter, performer, actor, filmmaker, Beyoncé is a creative tour-de-force who has captivated, astonished and is celebrated by the world."
+
+      },
+      {
+        "id": "2",
+        "name": "Lizzo",
+        "image": "https://lastfm.freetls.fastly.net/i/u/ar0/c91ab1489490e380b6aa3a37d0620183",
+        "bio": "Charismatic Grammy-winning singer/rapper Lizzo combines her roots in Houston rap, gospel soul, and classical flute as confidently as she addresses race, sexuality, and body positivity. Lizzo lived in Detroit until she was ten, when she and her family moved to Houston. While growing up, she listened to gospel at home, took flute lessons with the respected music teacher Claudia Momen, and played in her school's marching band. She also began rapping, forming the group Cornrow Clique with her friends when she was 14. Around this time, she picked up the nickname Lizzo, a cross between 'Lissa' and Jay-Z's 'Izzo (H.O.V. A.).'"
+      },
+      {
+        "id": "59761c23fcb6254b1a06dad5",
+        "name": "Rosalia",
+        "image": "http://dev.rosalia.com/wp-content/uploads/2021/01/A-pale-FINALv2-1024x1024.jpg",
+        "bio": "Rosalía Vila Tobella(September 25, 1992), known mononymously as Rosalía (stylized in all caps), is a Spanish singer and songwriter. After discovering Spanish folk music at an early age, Rosalía attended Taller de Músics and graduated from the Catalonia College of Music with honors by virtue of her collaborative cover album with Raül Refree, Los Ángeles (2017) and the baccalaureate project El Mal Querer (2018), which is co-produced by El Guincho and mixes modern interpretations of flamenco with pop and urban music. "
+      }
+    ],
+
+    "albums": [
+        {
+          "id": "1",
+          "title": "B'Day",
+          "artist": "bey",
+           "year": 2006,
+           "image": "https://m.media-amazon.com/images/I/816LJhBJIkL._SL1500_.jpg",
+           "genre": "Pop/R&B",
+           "label": "Sony",
+           "pitchfork_rating": 7.2
+        },
+        {
+
+          "id": "2",
+          "title":"Cuz I Love You",
+          "artist": "lizzo",
+           "year": 2019,
+           "image": "https://m.media-amazon.com/images/I/51uXNZSVDPL._SY355_.jpg",,
+           "genre": "Pop, Hip-Hop, R&B",
+           "label":  "Nice Life / Atlantic",
+           "pitchfork_rating": 7.2
+        },
+        {
+            "id": "1",
+            "title": "B'Day",
+            "artist": "bey",
+             "year": 2006,
+             "image": "https://m.media-amazon.com/images/I/816LJhBJIkL._SL1500_.jpg",
+             "genre": "Pop/R&B",
+             "label": "Sony",
+             "pitchfork_rating": 7.2
+        }
+      ],
+      "songs": [
+        {
+            "title": "Déjà Vu",
+            "year": 2006,
+            "artist": "bey",
+            "featuring": "JAY-Z",
+            "album": "bday",
+            "produced_by": "Beyoncé, Rodney Jerkins",
+            "written_by": "Beyoncé, JAY-Z, Delisha Thomas, Makeba Riddick, Rodney Jerkins, Keli Nicole Price",
+            "image": "https://t2.genius.com/unsafe/278x278/https%3A%2F%2Fimages.genius.com%2F2b2977987396626f909aa7e15f24c896.300x300x1.png",
+            "about": "Consistency is a hallmark of the recorded work of Beyoncé. It's always good to have her back on the radio. However, an artist of her stature has the ability to carry pop and r&b music to a new place if she chooses. Deja Vu was comfortable enough to bring back past memories to take us somewhere new.",
+            "music_video": "https://www.youtube.com/watch?v=RQ9BWndKEgs"
+                },
+                {
+            "title": "Get Me Bodied",
+            "year": 2006,
+            "artist": "bey",
+            "album": "bday",
+            "produced_by": "Swizz Beatz, Beyoncé, Sean Garrett",
+            "written_by": "Makeba Riddick, Solange, Sean Garrett, Swizz Beatz, Beyoncé, Angela Beyince",
+            "image": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2F4f3d55f39b9d451fbb5c05fe450c18a3.1000x1000x1.jpg",
+            "about": "On Get Me Bodied, Bey gets ready to get down at a club with her friends Kelly, Michelle and Solange.",
+            "music_video": "https://www.youtube.com/watch?v=RioOJ7dZxuw"
+                },
+                {
+            "title": "Suga Mama",
+            "year": 2006,
+            "artist": "bey",
+            "album": "bday",
+            "produced_by": "Makeba Riddick, Rich Harrison, Beyoncé",
+            "written_by": "Makeba Riddick, Rich Harrison, Chuck Middleton, Beyoncé",
+            "image": "https://t2.genius.com/unsafe/309x309/https%3A%2F%2Fimages.genius.com%2Fbe9bde09a676f137b265301989b0fb1e.600x600x1.png",
+            "about": "Suga Mama is a song recorded by American R&B singer Beyoncé Knowles for her second studio album, B'Day. Lyrically, it shows Beyoncé willing to pay large amounts of money to keep her love interest happy. A remix of the song features American rapper Consequence.",
+            "music_video": "https://www.youtube.com/watch?v=nmP5CBiFigo"
+                },
+                {
+            "title": "Upgrade U",
+            "year": 2006,
+            "artist": "bey",
+            "featuring": "JAY-Z",
+            "album": "bday",
+            "produced_by": "Cam Wallace, Sean Garrett, Swizz Beatz, Beyoncé",
+            "written_by": "Cam Wallace, Makeba Riddick, Swizz Beatz, Willie Clarke, Solange, Sean Garrett, JAY-Z, Clarence Reid, Beyoncé, Angela Beyince",
+            "image": "https://t2.genius.com/unsafe/303x303/https%3A%2F%2Fimages.genius.com%2F37a93293ee6f13fe336db5e18fe8bf96.932x932x1.jpg",
+            "about": "Upgrade U was released a promotional single on November 27, 2006 in the United States from Beyoncé's album B'Day. The song features Jay-Z and is mainly produced by Swizz Beatz. Yet another hit by the Knowles-Carter couple!",
+            "music_video": "https://www.youtube.com/watch?v=6nr8hPnZfMU"
+                },
+                {
+            "title": "Ring the Alarm",
+            "year": 2006,
+            "artist": "bey",
+            "album": "bday",
+            "produced_by": "Sean Garrett, Beyoncé, Swizz Beatz",
+            "written_by": "Sean Garrett, Swizz Beatz, Beyoncé",
+            "image": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2Fe2cd2bc5e994db8afd86674e94ae210a.1000x1000x1.jpg",
+            "about": "Ring the Alarm was the second US-released single from Beyoncé's award-winning, best-selling album B'Day. It was preceded by Grammy-nominated lead single Déjà Vu and suceeded by number one song Irreplaceable. It was written primarily by Beyoncé herself, inspired by her role in the Dreamgirls movie, with assistance from Swizz Beatz, who produced the song with her, and Sean Garrett. It was rumored to be about Rihanna's relationship with Bey's soon-to-be husband Jay-Z, (which, at the time, was rumored to be a love triangle) but Beyoncé denied that.",
+            "music_video": "https://www.youtube.com/watch?v=eY_mrU8MPfI"
+                }
+            ]
+  }
