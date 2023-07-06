@@ -30,7 +30,7 @@ const AlbumThumbnail = ( { album, currentUser } ) => {
     setLiked(true)
   }
 
-  let destructuredIds  
+  let destructuredIds
 
   currentUser ? destructuredIds = currentUser.user_albums.map(userAlbum => userAlbum.album).map(userAlbum => userAlbum.id) : destructuredIds = []
 
@@ -38,9 +38,9 @@ const AlbumThumbnail = ( { album, currentUser } ) => {
     <div className="thumbnail_container">
 
       <NavLink exact to={`/albums/${album.id}`}>
-        <img 
-              key={id} 
-              src={image} 
+        <img
+              key={id}
+              src={image}
               alt={title}
               className="thumbnail_image"/>
       </NavLink>
@@ -56,14 +56,14 @@ const AlbumThumbnail = ( { album, currentUser } ) => {
 
         <div className="column_two">
 
-          {currentUser ? 
-          
-            destructuredIds.indexOf(id) !== -1 || liked ? <i class="fa-solid fa-heart albumheart liked" onClick={handleAddAlbum}></i> : <i class="fa-solid fa-heart albumheart" onClick={handleAddAlbum}></i> 
+          {currentUser ?
+
+            destructuredIds.indexOf(id) !== -1 || liked ? <i class="fa-solid fa-heart albumheart liked" onClick={handleAddAlbum}></i> : <i class="fa-solid fa-heart albumheart" onClick={handleAddAlbum}></i>
 
             :
 
             null
-        
+
           }
 
         </div>
