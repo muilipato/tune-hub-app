@@ -5,7 +5,7 @@ const Sidebar = ( { currentUser, setCurrentUser } ) => {
   const history = useHistory();
 
   const handleLogout = () => {
-    fetch('http://localhost:3001/users', {
+    fetch('/logout', {
       method: 'DELETE'
     })
     .then((res) => {
@@ -68,9 +68,9 @@ const Sidebar = ( { currentUser, setCurrentUser } ) => {
                 <p><span>My Albums</span></p>
               </NavLink>
 
-              <NavLink to={`/users/${currentUser.id}`}>
+              {/*<NavLink to={`/users/${currentUser.id}`}>
               <p><span>My Account</span></p>
-            </NavLink>
+            </NavLink>*/}
 
 
             </div> : ""
