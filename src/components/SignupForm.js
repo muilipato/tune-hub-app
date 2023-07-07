@@ -24,7 +24,7 @@ const SignupForm = ( {setCurrentUser} ) => {
       return;
     }
 
-    fetch(/*  '/users'  */ 'http://localhost:3001/users'  , {
+    fetch('/users'  , {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

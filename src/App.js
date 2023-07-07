@@ -13,7 +13,7 @@ import AllAlbumsPage from './components/AllAlbumsPage';
 import MyArtists from './components/MyArtists';
 import MySongs from './components/MySongs';
 import MyAlbums from './components/MyAlbums';
-import UserProfile from './components/UserProfile';
+//import UserProfile from './components/UserProfile';
 
 const App = () => {
   const [currentUser, setCurrentUser] = useState(false)
@@ -41,7 +41,7 @@ const App = () => {
   },[]);
 
   useEffect(() => {
-    fetch('http://localhost:3001/albums')
+    fetch('/albums')
     .then(res => res.json())
     .then(albums => setAlbums(albums))
   }, []);
@@ -100,9 +100,9 @@ const App = () => {
             <SignupForm setCurrentUser={ setCurrentUser }/>
           </Route>
 
-          <Route exact path="/users/:id">
+          {/*<Route exact path="/users/:id">
             <UserProfile currentUser={currentUser}/>
-          </Route>
+  </Route>*/}
 
       </Switch>
     </div>
