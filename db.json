@@ -9,7 +9,7 @@
     {
       "id": "2",
       "name": "Lizzo",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/c91ab1489490e380b6aa3a37d0620183",
+      "image": "https://lastfm.freetls.fastly.net/i/u/770x0/93fbdf6d3f192efdb43381bb0fece3ea.jpg#93fbdf6d3f192efdb43381bb0fece3ea",
       "bio": "Charismatic Grammy-winning singer/rapper Lizzo combines her roots in Houston rap, gospel soul, and classical flute as confidently as she addresses race, sexuality, and body positivity. Lizzo lived in Detroit until she was ten, when she and her family moved to Houston. While growing up, she listened to gospel at home, took flute lessons with the respected music teacher Claudia Momen, and played in her school's marching band. She also began rapping, forming the group Cornrow Clique with her friends when she was 14. Around this time, she picked up the nickname Lizzo, a cross between 'Lissa' and Jay-Z's 'Izzo (H.O.V. A.).'"
     },
     {
@@ -35,7 +35,7 @@
       "title": "Cuz I Love You",
       "artist": "lizzo",
       "year": 2019,
-      "image": "https://m.media-amazon.com/images/I/51uXNZSVDPL._SY355_.jpg",
+      "image": "https://lastfm.freetls.fastly.net/i/u/770x0/93fbdf6d3f192efdb43381bb0fece3ea.jpg#93fbdf6d3f192efdb43381bb0fece3ea",
       "genre": "Pop, Hip-Hop, R&B",
       "label": "Nice Life / Atlantic",
       "pitchfork_rating": 7.2
@@ -120,71 +120,30 @@
     },
     {
       "username": "muilipato",
-      "password": "abdc",
-      "id": 2,
-      "albums": []
-    },
-    {
-      "username": "muilipato",
-      "password": "abdc",
-      "id": 3,
-      "albums": []
-    },
-    {
-      "username": "muilipato",
       "password": "abcd",
+      "id": 2
+    },
+    {
+      "username": "patrick",
+      "email": "abcd@gmail.com",
+      "password": "xyz",
+      "confirmPassword": "xyz",
+      "id": 3
+    },
+    {
+      "username": "patrick",
+      "password": "xyz",
       "id": 4
     },
     {
-      "username": "muilipato",
-      "password": "abdc",
+      "username": "patrick",
+      "password": "xyz",
       "id": 5
     },
     {
       "username": "muilipato",
-      "password": "abcd",
-      "id": 6
-    },
-    {
-      "username": "emmanuel",
-      "email": "abcd@gmail.com",
       "password": "xyz",
-      "confirmPassword": "xyz",
-      "id": 7
-    },
-    {
-      "username": "muilipato",
-      "password": "abcd",
-      "id": 8
-    },
-    {
-      "username": "muilipato",
-      "password": "abcd",
-      "id": 9
-    },
-    {
-      "username": "muilipato",
-      "password": "abcd",
-      "id": 10
-    },
-    {
-      "username": "muilipato",
-      "password": "abcd",
-      "id": 11
-    },
-    {
-      "username": "muilipato",
-      "password": "abcd",
-      "id": 12
-    },
-    {
-      "username": "muilipato",
-      "id": 13
-    },
-    {
-      "username": "muilipato",
-      "password": "abcd",
-      "id": 14
+      "id": 6
     }
   ]
 }
