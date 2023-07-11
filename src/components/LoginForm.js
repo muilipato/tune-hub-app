@@ -25,7 +25,7 @@ const LoginForm = ({ setCurrentUser }) => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    fetch("/login" , {
+    fetch("http://localhost:3001/users" , {
       method: 'POST',
       headers: {
         "Content-Type": "application/json",

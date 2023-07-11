@@ -6,7 +6,7 @@ const MyAlbums = ( { currentUser } ) => {
 const [userAlbums, setUserAlbums] = useState([])
 
   useEffect(() => {
-      fetch(`/users/${currentUser.id}`)
+      fetch(`http://localhost:3001/users/${currentUser.id}`)
       .then(res => res.json())
       .then(user => setUserAlbums(user.user_albums))
   }, [])
@@ -14,8 +14,8 @@ const [userAlbums, setUserAlbums] = useState([])
   function onDeleteUserAlbum(id) {
     const deleted = userAlbums.filter(userAlbum => userAlbum
     .id !== id)
-    setUserAlbums(deleted) 
-  }    
+    setUserAlbums(deleted)
+  }
 
   return (
     <div className="all_artists_body">

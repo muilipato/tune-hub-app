@@ -68,9 +68,9 @@ const Sidebar = ( { currentUser, setCurrentUser } ) => {
                 <p><span>My Albums</span></p>
               </NavLink>
 
-              {/*<NavLink to={`/users/${currentUser.id}`}>
+              <NavLink to={`/users/${currentUser.id}`}>
               <p><span>My Account</span></p>
-            </NavLink>*/}
+              </NavLink>
 
 
             </div> : ""

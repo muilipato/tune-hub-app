@@ -14,7 +14,7 @@ const [userArtists, setUserArtists] = useState([])
   function onDeleteUserArtist(id) {
     const deleted = userArtists.filter(userArtist => userArtist
     .id !== id)
-    setUserArtists(deleted) 
+    setUserArtists(deleted)
   }
 
   return (

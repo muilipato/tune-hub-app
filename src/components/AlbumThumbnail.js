@@ -19,7 +19,7 @@ const AlbumThumbnail = ( { album, currentUser } ) => {
   }
 
   function handleAddAlbum() {
-    fetch('/user_albums', {
+    fetch( `/user_albums`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
