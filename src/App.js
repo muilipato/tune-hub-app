@@ -24,7 +24,7 @@ const App = () => {
 
   // Check if current user is authorized and set to current user
   useEffect(() => {
-    fetch('/authorized_user')
+    fetch('https://tune-backend.onrender.com/authorized_user')
     .then((response) => {
       if (response.ok) {
         response.json().then((user) => {
@@ -41,7 +41,7 @@ const App = () => {
   },[]);
 
   useEffect(() => {
-    fetch('http://localhost:3001/albums')
+    fetch('https://tune-backend.onrender.com/albums')
     .then(res => res.json())
     .then(albums => setAlbums(albums))
   }, []);
